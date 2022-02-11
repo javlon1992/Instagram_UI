@@ -35,17 +35,17 @@ class _HomePageState extends State<HomePage> {
             backgroundColor: Colors.grey.shade900,
             selectedItemColor: Colors.cyanAccent,
             unselectedItemColor: Colors.white,
-            items: const [
+            items: [
               BottomNavigationBarItem(
-                  icon: Icon(Icons.home, size: 25,),title: SizedBox.shrink()),
+                  icon: Icon(Icons.home, size: 25,),label: null),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.search, size: 25),title: SizedBox.shrink()),
+                  icon: Icon(Icons.search, size: 25),label: null),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.add_box_outlined, size: 25),title: SizedBox.shrink()),
+                  icon: Icon(Icons.add_box_outlined, size: 25),label: null),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.favorite_border, size: 25),title: SizedBox.shrink()),
+                  icon: Icon(Icons.favorite_border, size: 25),label: null),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.person_outline, size: 25),title: SizedBox.shrink()),
+                  icon: Icon(Icons.person_outline, size: 25),label: null),
             ]),
         body: Container(
           height: MediaQuery.of(context).size.height,
